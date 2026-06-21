@@ -1,0 +1,1 @@
+#Will contain all the exception which will make it easy to handle
