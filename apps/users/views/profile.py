@@ -5,7 +5,7 @@ from rest_framework.response import Response
 from rest_framework.decorators import action
 from rest_framework import status, viewsets
 
-from apps.users.authentication.permission import IsCreator
+from common.permissions.permission import IsCreator
 
 
 class ProfileViewSet(viewsets.ViewSet):
