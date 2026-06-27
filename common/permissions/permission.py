@@ -16,3 +16,9 @@ class IsAdmin(HasGroupPermission):
 
 class IsCreator(HasGroupPermission):
     group_name = "Creator"
+
+class IsDeveloper(HasGroupPermission):
+    group_name = "Developer"
+
+class IsContentQC(HasGroupPermission):
+    group_name = "ContentQC"
